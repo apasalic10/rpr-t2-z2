@@ -10,12 +10,14 @@ public class Banka {
     public Banka(){}
     public Korisnik kreirajNovogKorisnika(String ime,String prezime){
         Korisnik k1 = new Korisnik(ime,prezime);
+        korisnici.add(k1);
 
         return k1;
     }
 
     public Uposlenik kreirajNovogUpsoslenika(String ime,String prezime){
         Uposlenik u1 = new Uposlenik(ime,prezime);
+        uposlenici.add(u1);
 
         return u1;
     }

@@ -28,7 +28,7 @@ public class Racun {
             return false;
         }
         else{
-            stanjeRac = d;
+            stanjeRac += d;
             return true;
         }
     }
@@ -38,6 +38,7 @@ public class Racun {
             return false;
         }
         else{
+            stanjeRac -= d;
             return true;
         }
     }
